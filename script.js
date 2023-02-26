@@ -217,4 +217,3 @@ for (var i = 0; i < dataall.length; i++) {
 
 
 }
-
