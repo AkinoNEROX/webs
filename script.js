@@ -162,7 +162,7 @@ var timeset = time - 10.00
 var timeset2 = timeset * 100
 var timeset3 = timeset2 / 8
 
-
+console.log(timeset3);
 
 if (timeset3 < 20) {
   document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped" role="progressbar" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">${timeset3}%</div>`;
