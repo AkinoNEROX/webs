@@ -151,13 +151,32 @@ var ch = 0;
 var today = new Date();
 var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
 var table = document.getElementById('showstatus')
-
-
-// to return the date number(1-31) for the specified date
 let tomorrow =  new Date()
 tomorrow.setDate(today.getDate() + 1)
-//returns the tomorrow date
+
 var datetomorrow = tomorrow.getDate()+'-'+(tomorrow.getMonth()+1)+'-'+tomorrow.getFullYear();
+
+var time = today.getHours() + "." + today.getMinutes();
+var timeout = 18.00
+var timeset = time - 10.00
+var timeset2 = timeset * 100
+var timeset3 = timeset2 / 8
+
+
+
+if (timeset3 < 20) {
+  document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped" role="progressbar" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">${timeset3}%</div>`;
+}else if  (timeset3 < 40) {
+  document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">${timeset3}%</div>`;
+}else if  (timeset3 < 60) {
+  document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">${timeset3}%</div>`;
+}else if  (timeset3 < 80) {
+  document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">${timeset3}%</div>`;
+}else if  (timeset3 < 90) {
+  document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped bg-danger" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">${timeset3}%</div>`;
+}else {
+  document.getElementById('showstatustime').innerHTML = `<div class="progress-bar progress-bar-striped bg-success" style="width: ${timeset3}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">เลิกงาน</div>`;
+}
 
 for (var i = 0; i < dataall.length; i++) {
   var nrow = `
@@ -173,6 +192,8 @@ document.getElementById('showday').innerHTML = `วันนี้วันท�
 Checkdatastatus();
 
 function Checkdatastatus(){
+
+  
 for (var i = 0; i < dataall.length; i++) {
   if (date === dataall[i].time) {
     document.getElementById('showstatustoday').innerHTML = `รายละเอียด : <b class = 'text-success'> ${dataall[i].status} </b>`;
@@ -197,18 +218,3 @@ for (var i = 0; i < dataall.length; i++) {
 
 }
 
-
-// function delay(milliseconds){
-//   return new Promise(resolve => {
-//       setTimeout(resolve, milliseconds);
-//   });
-// }
-
-
-// async function init(){
-//   await delay(1000);
-//   console.log(ch);
-//   init();
-// }
-
-// init();
