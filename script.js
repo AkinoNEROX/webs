@@ -1,179 +1,199 @@
-
 const dataall = [
+  {
+      "time": "24-2-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
     {
-        "time": "2023-2-24",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-2-25",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-2-26",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-2-27",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-2-28",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-01",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-02",
-        "status": "✖️หยุด✖️"
-      },
-      {
-        "time": "2023-3-03",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-04",
-        "status": "⚠️เข้างานปกติ 10.00 น.| 17.00 น.ไปงานสมุทรสาคร|กลับมาถึงบริษัทแล้วไปมหาสารคามต่อ|"
-      },
-      {
-        "time": "2023-3-05",
-        "status": "งานเลี้ยงคุณลูกค้า ร้าน บ้านชายนันท์  ต.บรบือ อ.บรบือ จ.มหาสารคาม"
-      },
-      {
-        "time": "2023-3-06",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-07",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-08",
-        "status": "⚠️ถ่าย Mv โอมเพี้ยงนะจังงัง"
-      },
-      {
-        "time": "2023-3-09",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-10",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-11",
-        "status": "⚠️เข้างานปกติ 10.00 น. | 16.00 ไปงานต่อชลบุรี| Hillary 1"
-      },
-      {
-        "time": "2023-3-12",
-        "status": "✖️หยุด✖️"
-      },
-      {
-        "time": "2023-3-13",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-14",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-15",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-16",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-17",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-18",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-19",
-        "status": "✖️หยุดกันหมด✖️"
-      },
-      {
-        "time": "2023-3-20",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-21",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-22",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-23",
-        "status": "⚠️เข้างานปกติ 10.00 น.|12.00น.ไปงานต่อexhibition fair Makro Impack เมืองทองธานี"
-      },
-      {
-        "time": "2023-3-24",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-25",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-26",
-        "status": "✖️หยุด✖️"
-      },
-      {
-        "time": "2023-3-27",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-28",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-29",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-30",
-        "status": "✅เข้างานปกติ 10.00 น."
-      },
-      {
-        "time": "2023-3-31",
-        "status": "⚠️เข้างานปกติ 10.00 น. | 21.00 ไปงานตาอ แสงจันทรห์สุวรรณภูมิ"
-      }
+      "time": "25-2-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "26-2-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "27-2-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "28-2-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "1-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "2-3-2023",
+      "status": "✖️หยุด✖️"
+    },
+    {
+      "time": "3-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "4-3-2023",
+      "status": "⚠️เข้างานปกติ 10.00 น.| 17.00 น.ไปงานสมุทรสาคร|กลับมาถึงบริษัทแล้วไปมหาสารคามต่อ|"
+    },
+    {
+      "time": "5-3-2023",
+      "status": "งานเลี้ยงคุณลูกค้า ร้าน บ้านชายนันท์  ต.บรบือ อ.บรบือ จ.มหาสารคาม"
+    },
+    {
+      "time": "6-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "7-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "8-3-2023",
+      "status": "⚠️ถ่าย Mv โอมเพี้ยงนะจังงัง"
+    },
+    {
+      "time": "9-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "10-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "11-3-2023",
+      "status": "⚠️เข้างานปกติ 10.00 น. | 16.00 ไปงานต่อชลบุรี| Hillary 1"
+    },
+    {
+      "time": "12-3-2023",
+      "status": "✖️หยุด✖️"
+    },
+    {
+      "time": "13-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "14-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "15-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "16-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "17-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "18-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "19-3-2023",
+      "status": "✖️หยุดกันหมด✖️"
+    },
+    {
+      "time": "20-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "21-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "22-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "23-3-2023",
+      "status": "⚠️เข้างานปกติ 10.00 น.|12.00น.ไปงานต่อexhibition fair Makro Impack เมืองทองธานี"
+    },
+    {
+      "time": "24-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "25-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "26-3-2023",
+      "status": "✖️หยุด✖️"
+    },
+    {
+      "time": "27-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "28-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "29-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "30-3-2023",
+      "status": "✅เข้างานปกติ 10.00 น."
+    },
+    {
+      "time": "31-3-2023",
+      "status": "⚠️เข้างานปกติ 10.00 น. | 21.00 ไปงานตาอ แสงจันทรห์สุวรรณภูมิ"
+    }
 ]
+
 
 
 var ch = 0;
 var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
 var table = document.getElementById('showstatus')
 
+
+// to return the date number(1-31) for the specified date
+let tomorrow =  new Date()
+tomorrow.setDate(today.getDate() + 1)
+//returns the tomorrow date
+var datetomorrow = tomorrow.getDate()+'-'+(tomorrow.getMonth()+1)+'-'+tomorrow.getFullYear();
+
 for (var i = 0; i < dataall.length; i++) {
-    var nrow = `
-    <tr>
-        <td>${dataall[i].time}</td>
-        <td>${dataall[i].status}</td>
-    </tr> 
-    `
-    table.innerHTML += nrow
+  var nrow = `
+  <tr>
+      <td>${dataall[i].time}</td>
+      <td>${dataall[i].status}</td>
+  </tr> 
+  `
+  table.innerHTML += nrow
 }
 
-document.getElementById('showday').innerHTML = `วันนี้วันที่ : <b class = 'btn btn-danger'> ${date} </b>`;
+document.getElementById('showday').innerHTML = `วันนี้วันที่ : <b class = 'text-danger'> ${date} </b>`;
 Checkdatastatus();
 
 function Checkdatastatus(){
-  for (var i = 0; i < dataall.length; i++) {
-    if (date === dataall[i].time) {
-      document.getElementById('showstatustoday').innerHTML = `STATUS : <b class = 'btn btn-primary'> ${dataall[i].status} </b>`;
-      break;
-    } else {
-      
-    }
+for (var i = 0; i < dataall.length; i++) {
+  if (date === dataall[i].time) {
+    document.getElementById('showstatustoday').innerHTML = `รายละเอียด : <b class = 'text-success'> ${dataall[i].status} </b>`;
+    break;
+  } else {
+    
   }
+}
+
+for (var i = 0; i < dataall.length; i++) {
+  if (datetomorrow === dataall[i].time) {
+      document.getElementById('tomorrow').innerHTML = `
+      <h3 class = 'text-center'>พรุ่งนี้</h3>
+      วันที่ : <b class = 'text-danger'> ${datetomorrow} </b></br>
+      รายละเอียด : <b class = 'text-success'> ${dataall[i].status} </b>`;
+    break;
+  } else {
+    
+  }
+}
+
 
 }
 
@@ -192,4 +212,3 @@ function Checkdatastatus(){
 // }
 
 // init();
-
